@@ -27,6 +27,9 @@ The simplest class can be created using the class keyword. For example, let's cr
 
 
 ```
+>>> class Snake:
+...     name = "python" # set an attribute `name` of the class
+...
 ```
 
 ## Attributes and Methods in class:
