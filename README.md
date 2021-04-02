@@ -24,3 +24,14 @@ Instance = class(arguments)
 ## How to create a class?
 
 The simplest class can be created using the class keyword. For example, let's create a simple, empty class with no functionalities.
+
+
+```
+```
+
+## Attributes and Methods in class:
+A class by itself is of no use unless there is some functionality associated with it. Functionalities are defined by setting attributes, which act as containers for data and functions related to those attributes. Those functions are called methods.
+
+### Attributes:
+You can define the following class with the name Snake. This class will have an attribute name.
+
