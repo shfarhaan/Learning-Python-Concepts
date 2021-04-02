@@ -19,4 +19,8 @@ An object is created using the constructor of the class. This object will then b
 
 ```md
 Instance = class(arguments)
+```
 
+## How to create a class?
+
+The simplest class can be created using the class keyword. For example, let's create a simple, empty class with no functionalities.
