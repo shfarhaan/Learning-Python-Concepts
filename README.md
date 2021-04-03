@@ -17,4 +17,23 @@ A class is a code template for creating objects. Objects have member variables a
 An object is created using the constructor of the class. This object will then be called the instance of the class. In Python we create instances in the following manner:
 
 ```md
-Instance = class(arguments) ```
+Instance = class(arguments)
+```
+
+## How to create a class?
+
+The simplest class can be created using the class keyword. For example, let's create a simple, empty class with no functionalities.
+
+```py
+    class Snake:
+        name = "python" # set an attribute `name` of the class
+
+```
+
+## Attributes and Methods in class
+
+A class by itself is of no use unless there is some functionality associated with it. Functionalities are defined by setting attributes, which act as containers for data and functions related to those attributes. Those functions are called methods.
+
+### Attributes
+
+You can define the following class with the name Snake. This class will have an attribute name.
