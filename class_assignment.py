@@ -11,7 +11,8 @@ class Pokemon:
 
     def __pokedex__(self):
         return f"The Pokemon is {self.name}. It is a {self.type} Pokemon. It seems it's current level is {self.level} and a total hitpoints of {self.hitpoints}"
-      def lose_health(self, dmg):
+    
+    def lose_health(self, dmg):
         self.health -= dmg
         if self.health <= 0:
             self.health = 0
@@ -59,3 +60,4 @@ class Pokemon:
         other.lose_health(dmg)
         print("{} attacked {}".format(self.name, other.name))
         print("{} dealt {} damage to {}. His health is {}.".format(self.name, dmg, other.name, other.health))
+        
