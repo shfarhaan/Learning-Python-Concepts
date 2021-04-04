@@ -61,3 +61,59 @@ class Pokemon:
         print("{} attacked {}".format(self.name, other.name))
         print("{} dealt {} damage to {}. His health is {}.".format(self.name, dmg, other.name, other.health))
         
+        def gain_exp(self, exp):
+    self.exp += exp
+    print("{} gained {} xp.\n".format(self.name, exp))
+    if self.exp >= 3:
+      self.level_up()
+  
+  def level_up(self):
+    self.exp = 0
+    self.level += 1
+    self.max_health += 1
+    self.health = self.max_health
+    print("{} leveled up to level {}! Max health now is {}. Health fully regenerated.\n".format(self.name, self.level, self.max_health))
+ 
+
+
+class Trainer:
+  def __init__(self, name, pokemons, potions, current_pokemon):
+    self.name = name
+    self.pokemons = pokemons
+    self.potions = potions
+    self.current_pokemon = current_pokemon
+  
+  def __repr__(self):
+    return "Trainer info. {name}, has pokemons: {pokemons}, has {potions} potions, current pokemon is {current_pokemon}.".format(name = self.name, pokemons = self.pokemons, potions = self.potions, current_pokemon = self.current_pokemon)
+  
+  def use_potion(self):
+    if self.potions > 0:
+      if self.current_pokemon.health < self.current_pokemon.max_health:
+        self.current_pokemon.gain_health(1)
+        self.potions -= 1
+        print("{} has {} potions left.\n".format(self.name, self.potions))
+      else:
+        print("{} failed to use a potion on {}. Your pokemon has maximum health.\n".format(self.name, self.current_pokemon.name))
+    else:
+      print("{}, you have no potions!\n".format(self.name))
+  
+  def attack(self, other, dmg):
+    self.current_pokemon.attack(other.current_pokemon, dmg)
+  
+  def switch_pokemon(self, pokemon):
+    if pokemon.is_knocked_out == True:
+      print("You can't switch to a knocked out pokemon!")
+    elif pokemon in self.pokemons:
+      self.current_pokemon = pokemon
+      print("{} switched a pokemon. {}'s current pokemon now is {}.\n".format(self.name, self.name, self.current_pokemon.name))
+
+
+
+class Charmander(Pokemon):
+  def __init__(self, name, level, type, is_knocked_out):
+    super().__init__(name, level, type, is_knocked_out)
+  
+  def destroy(self, other):
+    other.lose_health(other.health)
+    print("{} totally destroyed {}!".format(self.name, other.name))
+        
