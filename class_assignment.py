@@ -116,4 +116,21 @@ class Charmander(Pokemon):
   def destroy(self, other):
     other.lose_health(other.health)
     print("{} totally destroyed {}!".format(self.name, other.name))
-        
+
+    
+ 
+# The game
+pikachu = Pokemon("Pikachu", 3, "Fire", False)
+bulbasaur = Pokemon("Bulbasaur", 3, "Grass", False)
+squirtle = Pokemon("Squirtle", 3, "Water", False)
+charmander = Charmander("Charmander", 3, "Fire", False)
+
+erika = Trainer('Erika', [pikachu], 2, pikachu)
+ramos = Trainer('Ramos', [bulbasaur, squirtle], 2, bulbasaur)
+
+print(pikachu)
+print(bulbasaur)
+
+pikachu.lose_health(1)
+pikachu.gain_health(1)
+pikachu.gain_exp(3)
