@@ -30,6 +30,20 @@ To run all the tests please execute the following command from the project root 
 
 `pytest`
 
+To run specific tests please execute:
+
+pytest ./path/to/the/test_file.py
+Linting the Code
+Linting is done using pylint and flake8 libraries.
+
+## PyLint
+___
+To check if the code is written with respect to PEP 8 style guide please run:
+
+`pylint ./src/`
+In case if linter will detect error (i.e. missing-docstring) you may want to read more about specific error by running:
+
+
 # Python Classes and Methods
 
 Python is an “object-oriented programming language.” This means that almost all the code is implemented using a special construct called classes. Programmers use classes to keep related things together. This is done using the keyword “class,” which is a grouping of object-oriented constructs.
