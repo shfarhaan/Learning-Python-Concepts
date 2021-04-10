@@ -1,6 +1,6 @@
 # Prerequisites
 ___
-##Installing Python
+### Installing Python
 
 Make sure that you have [Python3]() installed on your machine.
 
@@ -11,6 +11,12 @@ Depending on your installation you might have access to Python3 interpreter eith
 You may check your Python version by running:
 
 `python --version`
+
+Note that in this repository whenever you see python it will be assumed that it is Python 3.
+
+**Installing dependencies**
+
+Install all dependencies that are required for the project by running:
 
 # Python Classes and Methods
 
