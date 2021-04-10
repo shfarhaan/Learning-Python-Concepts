@@ -1,3 +1,17 @@
+# Prerequisites
+___
+##Installing Python
+
+Make sure that you have [Python3]() installed on your machine.
+
+You might want to use [venv]() standard Python library to create virtual environments and have Python, pip and all dependent packages to be installed and served from the local project directory to avoid messing with system wide packages and their versions.
+
+Depending on your installation you might have access to Python3 interpreter either by running python or python3. The same goes for pip package manager - it may be accessible either by running pip or pip3.
+
+You may check your Python version by running:
+
+`python --version`
+
 # Python Classes and Methods
 
 Python is an “object-oriented programming language.” This means that almost all the code is implemented using a special construct called classes. Programmers use classes to keep related things together. This is done using the keyword “class,” which is a grouping of object-oriented constructs.
