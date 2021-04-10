@@ -18,6 +18,18 @@ Note that in this repository whenever you see python it will be assumed that it 
 
 Install all dependencies that are required for the project by running:
 
+`pip install -r requirements.txt`
+
+## Testing the Code
+___
+Tests are made using pytest framework.
+
+You may add new tests for yourself by adding files and functions with test_ prefix (i.e. test_topic.py with def test_sub_topic() function inside).
+
+To run all the tests please execute the following command from the project root folder:
+
+`pytest`
+
 # Python Classes and Methods
 
 Python is an “object-oriented programming language.” This means that almost all the code is implemented using a special construct called classes. Programmers use classes to keep related things together. This is done using the keyword “class,” which is a grouping of object-oriented constructs.
