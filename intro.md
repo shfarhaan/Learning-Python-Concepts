@@ -1,22 +1,21 @@
 # How to Use Python: Your First Steps
 
 ___
-``
 ## Table of Contents
 
 - Why You Should Use Python
 - How to Download and Install Python
-- Installing Python From Binaries
-Running Your Python Interpreter
-The Basic Python Syntax
-Comments
-Variables
-Keywords
-Built-In Data Types
-Conditionals
-Loops
-Functions
-How to Handle Errors in Python
+  - Installing Python From Binaries
+  - Running Your Python Interpreter
+- The Basic Python Syntax
+  - Comments
+  - Variables
+  - Keywords
+  - Built-In Data Types
+  - Conditionals
+  - Loops
+  - Functions
+- How to Handle Errors in Python
 Syntax Errors
 Exceptions
 Semantic Errors
