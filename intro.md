@@ -3,7 +3,7 @@
 ___
 ## Table of Contents
 
-- [Why You Should Use Python](#Why-you-should-use-python)
+- [Why You Should Use Python](#why-you-should-use-python)
 - How to Download and Install Python
   - Installing Python From Binaries
   - Running Your Python Interpreter
@@ -36,7 +36,7 @@ ___
 - Conclusion
 
 
-## Why You Should Use Python #why-python
+## Why You Should Use Python 
 
 Python, named after the British comedy group Monty Python, is a high-level, interpreted, interactive, and object-oriented programming language. Its flexibility allows you to do many things, both big and small. With Python, you can write basic programs and scripts and also to create complex and large-scale enterprise solutions. Here’s a sampling of its uses:
 
