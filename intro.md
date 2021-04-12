@@ -3,7 +3,7 @@
 ___
 ## Table of Contents
 
-- [Why You Should Use Python](#why-python)
+- [Why You Should Use Python](#Why-you-should-use-python)
 - How to Download and Install Python
   - Installing Python From Binaries
   - Running Your Python Interpreter
