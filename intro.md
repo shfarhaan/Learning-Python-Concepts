@@ -4,7 +4,7 @@ ___
 ## Table of Contents
 
 - [Why You Should Use Python](#why-you-should-use-python)
-- How to Download and Install Python
+- [How to Download and Install Python]()
   - Installing Python From Binaries
   - Running Your Python Interpreter
 - The Basic Python Syntax
@@ -61,3 +61,26 @@ Multiparadigm: It lets you write code in different styles, including object-orie
 Dynamically typed: It checks variable types at runtime, so you don’t need to declare them explicitly.
 Strongly typed: It won’t let unsafe operations on incompatible types go unnoticed.
 There’s a lot more to learn about Python. But by now, you should have a better idea of why Python is so popular and why you should consider learning to program with it.
+
+
+## How to Download and Install Python 
+There are three installation methods on Windows:
+
+The Microsoft Store
+The full installer
+Windows Subsystem for Linux
+In this section, you’ll learn how to check which version of Python, if any, is installed on your Windows computer. You’ll also learn which of the three installation methods you should use.
+
+How to Check Your Python Version on Windows
+To check if you already have Python on your Windows machine, first open a command-line application, such as PowerShell.
+
+Tip: Here’s how you open PowerShell:
+
+Press the Win key.
+Type PowerShell.
+Press Enter.
+Alternatively, you can right-click the Start button and select Windows PowerShell or Windows PowerShell (Admin).
+
+You can also use cmd.exe or Windows Terminal.
+
+With the command line open, type in the following command and press Enter:
